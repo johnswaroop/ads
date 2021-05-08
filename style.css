@@ -1,0 +1,503 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 3rem;
+  background-color: #011936;
+  border-bottom: 8px solid #ffa500;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  list-style: none;
+}
+
+nav ul li {
+  margin: 0 1rem;
+  font-size: 1.2rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  background: url(./images/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+header .mainTitle {
+  font-size: 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  color: #011936;
+  border: 5px solid #ffa500;
+  padding: 1em;
+  border-radius: 10px;
+}
+
+header h3 {
+  font-size: 1.7rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  color: black;
+}
+
+.card-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 70%;
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 15rem;
+  height: 22rem;
+  margin: 2rem;
+  padding: 1rem 1.5rem;
+  padding-top: 0.5;
+  background-color: white;
+  -webkit-box-shadow: 5px 5px 12px #333333, -5px -5px 12px white;
+          box-shadow: 5px 5px 12px #333333, -5px -5px 12px white;
+  border-radius: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 10px solid #ffa500;
+}
+
+.card .title {
+  font-size: 1rem;
+  padding-bottom: 0.5rem;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #011936;
+}
+
+.card img {
+  height: 10rem;
+  width: 15rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 5px;
+}
+
+.card p {
+  font-size: 0.75rem;
+  line-height: 130%;
+  text-overflow: hidden;
+  text-align: justify;
+  height: 5.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.card button {
+  border: none;
+  border-radius: 10px;
+  width: 50%;
+  height: 1.75rem;
+  color: white;
+  font-size: 0.8rem;
+  margin-top: 0.25rem;
+  background-color: #011936;
+  font-family: "Montserrat", sans-serif;
+}
+
+.sec2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-top: 8px solid #011936;
+  background: url(./images/4853433.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+}
+
+.sec2 h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #011936;
+  font-size: 3rem;
+  margin: 6rem auto 4rem;
+  color: #011936;
+  text-align: center;
+  border-bottom: 5px solid #ffa500;
+}
+
+.sec2 p {
+  font-family: "Montserrat", sans-serif;
+  width: 60%;
+  font-size: 1rem;
+  color: #011936;
+  text-align: justify;
+  line-height: 160%;
+}
+
+.icon-con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 70%;
+  margin: 5rem auto 6rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.icon-con .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.icon-con .icon img {
+  height: 10rem;
+  aspect-ratio: 1/1;
+  -o-object-fit: contain;
+     object-fit: contain;
+  padding: 0 1rem 0;
+}
+
+.icon-con .icon h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  width: 15rem;
+  margin-top: 2.5rem;
+  color: #011936;
+}
+
+.newspaper-explore {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.explore-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #011936;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 3px solid #011936;
+}
+
+.explore-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.explore-nav ul li {
+  color: white;
+  font-family: "Roboto";
+  font-weight: 300;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0.25rem 1rem 0.25rem;
+  border-bottom: 0.15rem solid white;
+  width: 6rem;
+}
+
+.explore-nav #news-paper {
+  color: #ffa500;
+  border-bottom: 5px solid #ffa500;
+}
+
+.list-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #d5e9ff;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.list-container ul {
+  display: none;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 1.5rem auto 1.5rem;
+  color: #011936;
+  width: 100%;
+  -webkit-transition: all;
+  transition: all;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.list-container ul li {
+  margin: 1rem;
+  width: 20rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.list-container ul li:visited {
+  color: #ffa500;
+}
+
+.list-container ul li:hover {
+  color: #ffa500;
+}
+
+.list-container ul li:active {
+  color: #ffa500;
+}
+
+#newspapers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.para {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.para h1 {
+  font-family: "Montserrat", sans-serif;
+  color: #011936;
+  font-size: 3rem;
+  margin: 6rem auto 4rem;
+  color: #011936;
+  text-align: center;
+  border-bottom: 5px solid #ffa500;
+}
+
+.para h2 {
+  font-family: "Montserrat", sans-serif;
+  color: #011936;
+  font-size: 2rem;
+  margin: 3rem auto 1rem;
+  color: #011936;
+  text-align: center;
+}
+
+.para p {
+  font-family: "Montserrat", sans-serif;
+  width: 60%;
+  font-size: 1rem;
+  color: #011936;
+  text-align: justify;
+  line-height: 160%;
+  margin-bottom: 2rem;
+}
+
+.para ul {
+  width: 60%;
+}
+
+.para ul li {
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  margin: 1rem 0 1rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1rem;
+  color: #011936;
+  text-align: justify;
+  line-height: 160%;
+}
+
+.para span {
+  color: #011936;
+  font-weight: bold;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 15rem;
+  background-color: #011936;
+}
+
+@media (max-width: 1100px) {
+  nav li {
+    display: none;
+  }
+  header {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    background: white;
+  }
+  header .mainTitle {
+    font-size: 4.5vw;
+    margin: 1rem 2vw 0;
+  }
+  header h3 {
+    font-size: 3.5vw;
+    margin: 1rem 2vw 0;
+  }
+  .card-container {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .sec2 {
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    background: white;
+  }
+  .sec2 h1 {
+    font-size: 4vw;
+    margin: 4rem auto 2rem;
+  }
+  .sec2 p {
+    font-size: 1rem;
+    width: auto;
+    margin: 1rem 1rem 1rem;
+  }
+  .icon-con {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: auto;
+    margin: 2rem auto 2rem;
+  }
+  .icon {
+    margin: 2rem auto 2rem;
+  }
+  #newspapers {
+    display: none;
+  }
+  .explore-nav ul {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    margin: 0;
+    padding: 0.5rem 0 0.5rem;
+  }
+  .explore-nav ul li {
+    width: 6rem;
+    margin: 0;
+    padding: 0 0 0.12rem;
+    border-bottom: 0.15rem solid #ffa500;
+  }
+  .para h1 {
+    font-size: 4vw;
+  }
+  .para h2 {
+    font-size: 4vw;
+  }
+  .para p {
+    width: 90%;
+  }
+  .para ul {
+    width: 90%;
+  }
+  .para ul li {
+    margin: 1rem 1rem 1rem;
+  }
+  .para span {
+    color: #011936;
+    font-weight: bold;
+  }
+}
+/*# sourceMappingURL=style.css.map */
